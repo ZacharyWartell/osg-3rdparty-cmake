@@ -83,8 +83,6 @@ Sources for libtiff can be downloaded from:
 
 http://www.libtiff.org
 
-**Note:** FTP link to *Master Download Site* is currently broken. New location is http://download.osgeo.org/libtiff/
-
 
 FreeType
 --------
