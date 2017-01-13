@@ -87,6 +87,7 @@ SET(CURL_SRCS
   ${CURL_SOURCE_DIR}/lib/pipeline.c
   ${CURL_SOURCE_DIR}/lib/pop3.c
   ${CURL_SOURCE_DIR}/lib/progress.c
+  ${CURL_SOURCE_DIR}/lib/rawstr.c
   ${CURL_SOURCE_DIR}/lib/rtsp.c
   ${CURL_SOURCE_DIR}/lib/security.c
   ${CURL_SOURCE_DIR}/lib/select.c
@@ -102,6 +103,7 @@ SET(CURL_SRCS
   ${CURL_SOURCE_DIR}/lib/splay.c
   ${CURL_SOURCE_DIR}/lib/ssh.c
   ${CURL_SOURCE_DIR}/lib/strdup.c
+  ${CURL_SOURCE_DIR}/lib/strequal.c
   ${CURL_SOURCE_DIR}/lib/strerror.c
   ${CURL_SOURCE_DIR}/lib/strtok.c
   ${CURL_SOURCE_DIR}/lib/strtoofft.c
