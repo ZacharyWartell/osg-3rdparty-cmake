@@ -7,6 +7,8 @@ SET(MINIZIP_PUBLIC_HEADERS
   ${MINIZIP_SOURCE_DIR}/zip.h
   ${MINIZIP_SOURCE_DIR}/unzip.h
   ${MINIZIP_SOURCE_DIR}/ioapi.h
+  ${MINIZIP_SOURCE_DIR}/ioapi_buf.h
+  ${MINIZIP_SOURCE_DIR}/ioapi_mem.h
 )
 
 SET(MINIZIP_PRIVATE_HEADERS
@@ -19,6 +21,9 @@ SET(MINIZIP_SRCS
   ${MINIZIP_SOURCE_DIR}/minizip.c
   ${MINIZIP_SOURCE_DIR}/zip.c
   ${MINIZIP_SOURCE_DIR}/unzip.c
+  ${MINIZIP_SOURCE_DIR}/ioapi_buf.c
+  ${MINIZIP_SOURCE_DIR}/ioapi_mem.c
+  ${MINIZIP_SOURCE_DIR}/ioapi.c
 )
 
 # Dependent include files
