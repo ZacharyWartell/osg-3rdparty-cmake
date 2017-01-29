@@ -18,6 +18,7 @@ SET(MINIZIP_SRCS
   ${MINIZIP_SOURCE_DIR}/iowin32.c
   ${MINIZIP_SOURCE_DIR}/minizip.c
   ${MINIZIP_SOURCE_DIR}/zip.c
+  ${MINIZIP_SOURCE_DIR}/unzip.c
 )
 
 # Dependent include files
