@@ -5,11 +5,12 @@ SET(TARGET_LIB minizip)
 
 SET(MINIZIP_PUBLIC_HEADERS
   ${MINIZIP_SOURCE_DIR}/zip.h
+  ${MINIZIP_SOURCE_DIR}/unzip.h
+  ${MINIZIP_SOURCE_DIR}/ioapi.h
 )
 
 SET(MINIZIP_PRIVATE_HEADERS
   ${MINIZIP_SOURCE_DIR}/crypt.h
-  ${MINIZIP_SOURCE_DIR}/ioapi.h
   ${MINIZIP_SOURCE_DIR}/iowin32.h
 )
 
@@ -17,6 +18,7 @@ SET(MINIZIP_SRCS
   ${MINIZIP_SOURCE_DIR}/iowin32.c
   ${MINIZIP_SOURCE_DIR}/minizip.c
   ${MINIZIP_SOURCE_DIR}/zip.c
+  ${MINIZIP_SOURCE_DIR}/unzip.c
 )
 
 # Dependent include files
